@@ -6,7 +6,7 @@ on:
   
 jobs:
   deploy-app:
-    runs-on: ubuntu-latest
+    runs-on: window-latest
     
     steps:
       - run: curl ${{secrets.RENDER_DEPLOY_HOOK}}
